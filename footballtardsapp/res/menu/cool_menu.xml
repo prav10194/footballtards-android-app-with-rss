@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item
+    android:title="Switch to RSS View"
+    android:id="@+id/rssView"
+    android:numericShortcut="1"
+    android:alphabeticShortcut="a"
+    android:icon="@drawable/ic_action_storage"/>
+
+<item
+    android:title="Exit"
+    android:id="@+id/exit"
+    android:numericShortcut="2"
+    android:alphabeticShortcut="b"
+    android:icon="@drawable/ic_action_remove1"/>
+
+<item
+    android:title="View in browser"
+    android:id="@+id/browser"
+    android:numericShortcut="4"
+    android:alphabeticShortcut="d"
+    android:icon="@drawable/ic_action_web_site1"/>
+
+<item
+    android:title="Share App"
+    android:id="@+id/share"
+    android:numericShortcut="5"
+    android:alphabeticShortcut="e"
+    android:icon="@drawable/ic_action_share1"/>
+
+<item
+    android:title="Help"
+    android:id="@+id/help"
+    android:numericShortcut="7"
+    android:alphabeticShortcut="g"
+    android:icon="@drawable/ic_action_help"/>
+
+<item
+    android:title="About Us!"
+     android:id="@+id/about"
+    android:numericShortcut="8"
+    android:alphabeticShortcut="h"
+    android:icon="@drawable/ic_action_about"/>
+
+<item
+    android:title="Rate and Review"
+    android:id="@+id/rate"
+    android:numericShortcut="10"
+    android:alphabeticShortcut="j"
+    android:icon="@drawable/ic_action_good"/>
+
+</menu>

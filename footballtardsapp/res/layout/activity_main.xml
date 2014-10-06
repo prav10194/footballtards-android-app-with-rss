@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="wrap_content" android:layout_height="48dp" android:background="@drawable/bar" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+    <ImageView android:id="@+id/forward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:paddingLeft="10dp" android:paddingRight="10dp" android:src="@drawable/stop"/>
+    <ImageView android:id="@+id/exit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:paddingLeft="10dp" android:paddingRight="10dp" android:src="@drawable/exit"/>
+    <ImageView android:id="@+id/refresh" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_alignParentTop="true" 
+        android:layout_toRightOf="@+id/exit" 
+        android:paddingLeft="10dp" 
+        android:paddingRight="10dp" 
+        android:src="@drawable/refresh"/>
+    <ImageView android:id="@+id/rss1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_alignParentTop="true" 
+        android:layout_toRightOf="@+id/refresh" 
+        android:paddingLeft="31dp" 
+         android:paddingTop="5dp" 
+         android:paddingBottom="5dp"
+        android:paddingRight="10dp" 
+        android:src="@drawable/rss20"/>
+
+    <ImageView
+        android:id="@+id/rss11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/rss1"
+        android:paddingLeft="31dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/options" />
+   
+</RelativeLayout>
+
+<WebView
+    android:id="@+id/webView1"
+    android:layout_below="@id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
